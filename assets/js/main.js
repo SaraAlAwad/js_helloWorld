@@ -122,6 +122,8 @@ let x = "<br>Hello ";
 let y = "World<br>"
 let z = x + y;
 let n = x + " " + y;
+x += "world";
+document.write(x);
 let meinString = "Ich bin Erster";
 let string = meinString + " Ich komme auf Platz zwei";
 console.log(string);
